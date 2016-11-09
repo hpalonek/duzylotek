@@ -15,10 +15,7 @@ def ustawienia():
 			return (ileliczb, maxliczb, ilelos)
 		except:
 			print 'bledne dane'
-			continue
-
-	#print 'ustaliles ze chcesz losować', ileliczb, ' liczby ', 'a maksymalna liczba to ', maxliczb
-	
+			continue	
 
 def losowanie(ileliczb, maxliczb):
 	liczby = []
@@ -30,7 +27,6 @@ def losowanie(ileliczb, maxliczb):
 			liczby.append(liczba)
 			i=i+1
 	return liczby
-
 
 def typowanie(ileliczb, maxliczb):
 	print "Wytypuj", ileliczb, "z", maxliczb, "liczb:"
@@ -58,8 +54,6 @@ def wyniki(liczby, typy):
 	print 'wytypowales', typy
 	print 'trafione', trafione
 	print 'trafiles', len(trafione), 'razy'
-
-	#print 'wylosowano', liczby
 
 	return len(trafione)
 
