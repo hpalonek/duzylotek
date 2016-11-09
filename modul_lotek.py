@@ -6,9 +6,9 @@ import random
 def ustawienia():
 	while 1:
 		try:
-			ileliczb = int(raw_input('ile liczb chcesz losować? '))
-			maxliczb = int(raw_input('jaka ma być maksymalna losowana liczba? '))
-			ilelos = int(raw_input('ile razy chcesz typowac? '))
+			ileliczb = int(raw_input('Ile liczb chcesz losować? '))
+			maxliczb = int(raw_input('Jaka ma być maksymalna losowana liczba? '))
+			ilelos = int(raw_input('Ile razy chcesz typowac? '))
 			if ileliczb>maxliczb:
 				print 'bledne dane'
 				exit()
